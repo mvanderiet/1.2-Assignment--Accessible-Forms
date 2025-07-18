@@ -2,7 +2,7 @@
 <html>
 <body>
 
-Thank you for your submission, <?php echo $_POST["fullName"]; ?><br>
+<?php echo "Thanks for your submission."; ?><br>
 
 </body>
 </html>
