@@ -30,14 +30,15 @@
 
 <!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
 			<form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
+				<p>* indicates a required field.</p>
 				<!-- Full Name -->
-				<label for="fullName">Full Name</label>
+				<label for="fullName">Full Name*</label>
 				<input id="fullName" type="text" autocomplete="fullName" required>
 				<!-- Email Address -->
-				<label for="emailAddress">Email Address</label>
+				<label for="emailAddress">Email Address*</label>
 				<input id="emailAddress" type="email" autocomplete="emailAddress" required>
 				<!-- Phone Number -->
-				<label for="phoneNumber">Phone Number</label>
+				<label for="phoneNumber">Phone Number*</label>
 				<input id="phoneNumber" type="tel" autocomplete="phoneNumber" required>
 				<!-- Preferred Contact Method -->
 				<fieldset>
@@ -48,7 +49,7 @@
 					<label for="email">Email</label>
 				</fieldset>
 				<!-- State of Residence -->
-				<label for="stateResidence">Which state do you live in?</label>
+				<label for="stateResidence">Which state do you live in?*</label>
 				<select id="stateResidence" name="select" required>
 					<option value="1">Alabama</option>
 					<option value="2">Alaska</option>
