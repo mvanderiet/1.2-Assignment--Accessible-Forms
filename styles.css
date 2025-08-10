@@ -114,6 +114,10 @@ h1{
 	border: 0; 
 }
 
+span {
+	color: red;
+}
+
 nav ul{
 	width: 100%;
 	max-width: 800px;
@@ -212,9 +216,6 @@ input:focus, select:focus, textarea:focus{
 	box-shadow: 0 0 0 0.09em currentColor;
 }
 
-input:error, select:error, textarea:error{
-	background-color: #c71819;
-}
 
 fieldset{
 	margin: 0.5em auto;
